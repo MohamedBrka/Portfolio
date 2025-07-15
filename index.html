@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Mo.Mabrouk Portfolio</title>
+  <!-- <link rel="shortcut icon" href="https://routeweather.netlify.app/images/logo@2x.png" type="image/x-icon"> -->
+  <link rel="icon shortcut icon " href="images/favicon.ico" type="image/png">
+
+  <link rel="stylesheet" href="css/all.min.css" />
+  <link rel="stylesheet" href="css/bootstrap.min.css" />
+  <link rel="stylesheet" href="css/main.css" />
+</head>
+
+<body>
+
+  <!-- navbar -->
+  <nav>
+    <a href="" class="text-decoration-none text-light"><span class=" fw-bold">Mo.</span> Mabrouk</a>
+    <button id="menu-toggle" aria-label="Toggle navigation">
+      <span class="burger-icon"><i class="fas fa-bars"></i></span>
+      <span class="close-icon"><i class="fas fa-times"></i></span>
+    </button>
+    <ul>
+      <li><a href="#header" class="  nav-link">Home</a></li>
+      <li><a href="#about" class="nav-link">About</a></li>
+      <li><a href="#services" class="nav-link">Services</a></li>
+      <li><a href="#portfolio" class="nav-link">Portfolio</a></li>
+      <li><a href="#contact" class="nav-link">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- header -->
+  <div class="header" id="header">
+    <div class="header-content">
+      <h1>Front-End Developer</h1>
+      <p>
+        Hi, I'm <span>Mohamed Mabrouk</span><br />
+        I craft modern, responsive websites with clean code, creative design,
+        and seamless user experiences.
+      </p>
+    </div>
+  </div>
+
+  <!-- about -->
+  <div class="about" id="about">
+    <div class="container">
+      <div class="row">
+        <div class="about-col-1">
+          <img src="images/WhatsApp Image 2025-01-12 at 2.11.47 PM.jpeg" alt="Mohamed Mabrouk" />
+        </div>
+        <div class="about-col-2">
+          <h1 class="sub-title">About Me</h1>
+          <p>
+            I'm a passionate Front-End Developer with a strong focus on building clean, interactive, and responsive web
+            applications. I enjoy turning complex problems into simple, beautiful, and intuitive designs. I strive to
+            create seamless user experiences using modern technologies like HTML, CSS, JavaScript, Angular.
+          </p>
+
+          <div class="tab-titles">
+            <p class="tab-links active-link" onclick="openTab('skills')">Skills</p>
+            <p class="tab-links" onclick="openTab('experience')">Experiences</p>
+            <p class="tab-links" onclick="openTab('education')">Education</p>
+          </div>
+
+          <div class="tab-contents active-tab" id="skills">
+            <ul>
+              <li><span>Languages:</span> HTML5, CSS3, JavaScript (ES6+), TypeScript , C# , Python C</li>
+              <li><span>Frameworks & Libraries:</span> React.js (SPA), Angular (Basic), Bootstrap, Tailwind css.</li>
+              <li><span>APIs & Web Integration:</span> RESTful APIs, Axios, fetch, async/await.</li>
+              <li><span>UI/UX:</span> Responsive Design, Flexbox, Grid, CSS Animations.</li>
+              <li><span>Tools:</span> Git & GitHub, VS Code.</li>
+            </ul>
+          </div>
+
+          <div class="tab-contents" id="experience">
+            <ul>
+              <li><span>Front-End Intern (Digital Pathways for Employment "DPE")</span><br />
+                Participated in a structured front-end development internship focused on building modern websites.
+
+                Received hands-on training and supervision in HTML, CSS3, Bootstrap, JavaScript, Git, and GitHub.
+
+                Contributed to the design and development of internal company projects.
+
+                Worked on a final project for the company and presented it during a graduation day event.
+
+                Successfully completed the internship with a final score of
+                91%
+                .
+              </li>
+
+
+            </ul>
+          </div>
+
+          <div class="tab-contents" id="education">
+            <ul>
+              <li><span>Bachelor's in Computer Science</span><br />
+                Faculty of Computers and Artificial Intelligence, Helwan University, Cairo, Egypt<br />
+                Grade: Very Good (GPA: 2.8)
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- --------------------- Services --------------------- -->
+  <div class="services" id="services">
+    <div class="container">
+      <h1 class="sub-title">My Services</h1>
+      <div class="services-list">
+        <div>
+          <i class="fas fa-code"></i>
+          <h3>Web Development</h3>
+          <p>
+            Building responsive websites using modern technologies like HTML, CSS, and JavaScript with clean,
+            maintainable code.
+          </p>
+        </div>
+        <div>
+          <i class="fas fa-laptop-code"></i>
+          <h3>Single Page Apps (SPA)</h3>
+          <p>
+            Developing dynamic React-based SPAs that deliver smooth user experiences with real-time interactivity and
+            state management.
+          </p>
+        </div>
+        <div>
+          <i class="fas fa-paint-brush"></i>
+          <h3>UI/UX Design</h3>
+          <p>
+            Designing modern user interfaces with attention to detail, animations, layout systems, and responsive design
+            principles.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- --------------------- Portfolio --------------------- -->
+  <div class="portfolio" id="portfolio">
+    <div class="container">
+      <h1 class="sub-title text-center">My Projects</h1>
+      <div class="row gy-4">
+
+        <!-- Project 1 -->
+        <div class="col-md-4">
+          <div class="work">
+            <img src="images/Screenshot (178).png" alt="Weather Api">
+            <div class="layer">
+              <div class="icons">
+                <a href="https://mohamedbrka.github.io/Weather/" target="_blank"><i class="fas fa-link"></i></a>
+                <a href="https://github.com/MohamedBrka" target="_blank"><i class="fab fa-github"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Project 2 -->
+        <div class="col-md-4">
+          <div class="work">
+            <img src="images/Screenshot (176).png" alt="Bookmark">
+            <div class="layer">
+              <div class="icons">
+                <a href="https://mohamedbrka.github.io/Bookmark/" target="_blank"><i class="fas fa-link"></i></a>
+                <a href="https://github.com/MohamedBrka" target="_blank"><i class="fab fa-github"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+        <!-- Project 3 -->
+
+        <div class="col-md-4">
+          <div class="work">
+            <img src="images/Screenshot (177).png" alt="Login-System">
+            <div class="layer">
+              <div class="icons">
+                <a href="https://mohamedbrka.github.io/Login/" target="_blank"><i class="fas fa-link"></i></a>
+                <a href="https://github.com/MohamedBrka" target="_blank"><i class="fab fa-github"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <!-- Project 4 -->
+        <div class="col-md-4">
+          <div class="work">
+            <img src="images/Screenshot (179).png" alt="DevFolio">
+            <div class="layer">
+              <div class="icons">
+                <a href="https://mohamedbrka.github.io/DevFolio/" target="_blank"><i class="fas fa-link"></i></a>
+                <a href="https://github.com/MohamedBrka" target="_blank"><i class="fab fa-github"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Project 5 -->
+        <div class="col-md-4">
+          <div class="work">
+            <img src="images/Screenshot (180).png" alt="Mealfiy">
+            <div class="layer">
+              <div class="icons">
+                <a href="https://mohamedbrka.github.io/Mealfiy/" target="_blank"><i class="fas fa-link"></i></a>
+                <a href="https://github.com/MohamedBrka" target="_blank"><i class="fab fa-github"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Project 5 -->
+        <div class="col-md-4">
+          <div class="work">
+            <img src="images/Screenshot (181).png" alt="Games">
+            <div class="layer">
+              <div class="icons">
+                <a href="https://mohamedbrka.github.io/Games/" target="_blank"><i class="fas fa-link"></i></a>
+                <a href="https://github.com/MohamedBrka" target="_blank"><i class="fab fa-github"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- --------------------- Contact --------------------- -->
+        <div class="contact" id="contact">
+          <div class="container">
+            <h1 class="sub-title">Contact Me</h1>
+            <div class="row">
+              <!-- Left Side -->
+              <div class="contact-left">
+
+                <div class="social-icons">
+                  <a href="mailto:mohamedmabrook2001@gmail.com" target="_blank"><i class="fas fa-envelope"></i></a>
+                  <a href="https://www.facebook.com/mohamed.mabrook.9085?locale=ar_AR" target="_blank"><i
+                      class="fab fa-facebook"></i></a>
+                  <a href="https://www.instagram.com/m_a_b_r_o_u_k_15/" target="_blank"><i
+                      class="fab fa-instagram"></i></a>
+                  <a href="https://github.com/MohamedBrka" target="_blank"><i class="fab fa-github"></i></a>
+                  <a href="https://www.linkedin.com/in/mohamed-mabrouk-57a9a0346/" target="_blank"><i
+                      class="fab fa-linkedin"></i></a>
+                </div>
+                <a href="Mohamed-Mabrouk.pdf" download class="btn">Download CV</a>
+              </div>
+
+              <!-- Right Side -->
+              <div class="contact-right">
+                <form>
+                  <input type="text" name="name" placeholder="Your Name" required>
+                  <input type="email" name="email" placeholder="Your Email" required>
+                  <textarea name="message" rows="6" placeholder="Your Message" required></textarea>
+                  <button type="submit" class="btn">Submit</button>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Scroll to Top Button -->
+        <button id="scroll-to-top" class="scroll-to-top-btn" aria-label="Scroll to top">
+          <i class="fas fa-chevron-up"></i>
+        </button>
+
+        <!-- --------------------- Footer --------------------- -->
+        <footer>
+          <p>Coded and Designed by Eng Mohamed Mabrouk. All rights reserved.</p>
+        </footer>
+        <script src="./js/bootstrap.bundle.min.js"></script>
+        <script src="./js/main.js"></script>
+</body>
+
+</html>
