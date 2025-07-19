@@ -178,6 +178,7 @@ nav ul li a.active-link::after {
   color: #d0d0d0;
 }
 
+
 /* ------------------ Tab Styling ------------------ */
 .tab-titles {
   display: flex;
@@ -229,7 +230,7 @@ nav ul li a.active-link::after {
   color: rgb(255, 0, 123);
   font-weight: 600;
 }
-  
+
 
 
 /* --------------------- Services --------------------- */
@@ -264,10 +265,7 @@ nav ul li a.active-link::after {
   color: #000;
   transform: translateY(-10px);
 }
-.services-list div:hover i{
-  transform: scale(1.4);
 
-}
 .services-list div i {
   font-size: 40px;
   margin-bottom: 20px;
@@ -289,8 +287,8 @@ nav ul li a.active-link::after {
   color: #ccc;
 }
 
-.services-list div:hover p {
-  color: #000;
+.services-list div:hover p ,h3 {
+  color: #fff;
 }
 /* --------------------- Portfolio --------------------- */
 .portfolio {
@@ -397,9 +395,6 @@ nav ul li a.active-link::after {
   gap: 30px;
 }
 
-.contact-left {
-  flex-basis: 40%;
-}
 
 .contact-left p {
   font-size: 16px;
@@ -418,8 +413,8 @@ nav ul li a.active-link::after {
   transition: color 0.3s;
 }
 
-.social-icons a:hover {
-color: rgb(255, 0, 123);
+.social-icons i:hover  {
+color:#fff;
 }
 
 .btn {
@@ -432,11 +427,13 @@ color: rgb(255, 0, 123);
   text-decoration: none;
   transition: 0.3s;
   margin-top: 20px;
+  transition: all 0.8s ease;
 }
 
 .btn:hover {
   background:  rgb(255, 0, 123);
   color: #fff;
+  transform: scale(1.2);
 }
 
 .contact-right {
