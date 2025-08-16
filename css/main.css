@@ -436,9 +436,6 @@ color:#fff;
   transform: scale(1.2);
 }
 
-.contact-right {
-  flex-basis: 55%;
-}
 
 .contact-right form input,
 .contact-right form textarea {
